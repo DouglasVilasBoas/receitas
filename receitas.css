@@ -1,0 +1,50 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+
+.receita {
+    background-color: rgba(240, 146, 70, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    width: 25rem;
+    margin-left: 1rem;
+    border-radius: 2%;
+    box-shadow:5px 10px 10px rgba(119, 116, 116, 0.541);
+}
+
+.receita h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.receita img {
+    width: 15rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.receita hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+
+}
+
+.preparo{
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}

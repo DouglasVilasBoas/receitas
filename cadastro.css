@@ -1,0 +1,60 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+#nComplemento, #cidadeUf {
+    display: flex;
+}
+
+#container div {
+    margin-top: 3px;
+}
+
+#container input {
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 600px;
+    margin-left: 2rem ;
+}
+
+
+#email input {
+    margin-left: 1.7rem;
+}
+
+#cep input {
+    width: 250px ;
+    margin-left: 3rem;
+}
+#rua input {
+    margin-left: 3rem;
+}
+
+#numero input {
+    margin-right: 2rem;
+    width: 80px ;
+    margin-left: 3.6rem;
+}
+#complemento input {
+    width: 180px ;
+}
+#cidade input {
+    width: 180px ;
+    margin-left: 1.4rem;
+    margin-right: 2rem;
+}
+#uf input {
+    width: 50px ;
+    margin-right: 1rem;
+    margin-left: 1.3rem;
+}
+
+button {
+    border-radius: 5px;
+    padding: 3px;
+}
